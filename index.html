@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricardo Alves — Engenheiro Metalúrgico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow--left"></div>
+  <div class="bg-glow bg-glow--right"></div>
+
+  <header class="hero" id="inicio">
+    <div class="hero__watermark" aria-hidden="true">RICARDO ALVES</div>
+    <div class="hero__content">
+      <div class="hero__text">
+        <p class="hero__label">Engenheiro Metalúrgico Sênior</p>
+        <h1 class="hero__name">Ricardo Alves</h1>
+        <p class="hero__tagline">
+          Especialista em processos avançados de fundição, ligas de alta performance
+          e manufatura aditiva para a indústria 4.0.
+        </p>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__value" data-count="12">0</span>
+            <span class="stat__label">Anos de experiência</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="47">0</span>
+            <span class="stat__label">Projetos entregues</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value" data-count="8">0</span>
+            <span class="stat__label">Patentes registradas</span>
+          </div>
+        </div>
+        <div class="hero__actions">
+          <a href="#contato" class="btn btn--primary">Entrar em contato</a>
+          <a href="#experiencia" class="btn btn--ghost">Ver trajetória</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__ring">
+          <svg viewBox="0 0 200 200" class="hero__ring-svg">
+            <defs>
+              <path id="circlePath" d="M 100,100 m -75,0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"/>
+            </defs>
+            <text>
+              <textPath href="#circlePath">METALURGIA MODERNA • INOVAÇÃO INDUSTRIAL • </textPath>
+            </text>
+          </svg>
+          <div class="hero__avatar">
+            <div class="hero__avatar-inner">
+              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="45" r="22" stroke="currentColor" stroke-width="2"/>
+                <path d="M30 95c0-16 13-28 30-28s30 12 30 28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M45 55l8 8 22-22" stroke="#39ff14" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <span class="hero__badge">Ex-Especialista Siderúrgico</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#inicio" class="nav__link nav__link--active">Início</a>
+      <a href="#sobre" class="nav__link">Sobre</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#experiencia" class="nav__link">Experiência</a>
+      <a href="#contato" class="nav__link">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section" id="sobre">
+      <div class="glass-card glass-card--wide reveal">
+        <div class="card-header">
+          <span class="card-header__icon">⚗</span>
+          <h2>DNA Metalúrgico</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-highlight">
+            <span class="about-highlight__num">250+</span>
+            <span class="about-highlight__text">Análises de liga realizadas</span>
+          </div>
+          <div class="about-highlight">
+            <span class="about-highlight__num">98%</span>
+            <span class="about-highlight__text">Taxa de aprovação em QA</span>
+          </div>
+          <p class="about-text">
+            Engenheiro metalúrgico com foco em transformação digital de processos
+            siderúrgicos. Atuo na otimização de microestruturas, desenvolvimento de
+            aços especiais para automotivo e aeroespacial, e implementação de
+            sensores IoT em linhas de produção. Apaixonado por unir ciência dos
+            materiais com inteligência artificial aplicada.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--skills" id="skills">
+      <div class="skills-layout">
+        <div class="glass-card reveal">
+          <div class="card-header">
+            <span class="card-header__icon">◈</span>
+            <h2>Competências Técnicas</h2>
+          </div>
+          <div class="skill-bars">
+            <div class="skill-bar" data-value="95">
+              <div class="skill-bar__header">
+                <span>Metalurgia Física</span>
+                <span class="skill-bar__pct">95%</span>
+              </div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="90">
+              <div class="skill-bar__header">
+                <span>Fundição &amp; Conformação</span>
+                <span class="skill-bar__pct">90%</span>
+              </div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="88">
+              <div class="skill-bar__header">
+                <span>Tratamentos Térmicos</span>
+                <span class="skill-bar__pct">88%</span>
+              </div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="85">
+              <div class="skill-bar__header">
+                <span>Manufatura Aditiva</span>
+                <span class="skill-bar__pct">85%</span>
+              </div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="82">
+              <div class="skill-bar__header">
+                <span>Simulação FEM / CFD</span>
+                <span class="skill-bar__pct">82%</span>
+              </div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+            <div class="skill-bar" data-value="78">
+              <div class="skill-bar__header">
+                <span>Python &amp; Data Science</span>
+                <span class="skill-bar__pct">78%</span>
+              </div>
+              <div class="skill-bar__track"><div class="skill-bar__fill"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card reveal">
+          <div class="card-header">
+            <span class="card-header__icon">◎</span>
+            <h2>Mapa de Especialidades</h2>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="radarChart" aria-label="Gráfico radar de especialidades metalúrgicas"></canvas>
+          </div>
+        </div>
+
+        <div class="glass-card reveal">
+          <div class="card-header">
+            <span class="card-header__icon">▣</span>
+            <h2>Distribuição de Atuação</h2>
+          </div>
+          <div class="chart-wrap chart-wrap--donut">
+            <canvas id="donutChart" aria-label="Gráfico de distribuição de atuação profissional"></canvas>
+          </div>
+          <ul class="donut-legend" id="donutLegend"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="experience-layout">
+        <div class="glass-card reveal">
+          <div class="card-header">
+            <span class="card-header__icon">→</span>
+            <h2>Jornada Industrial</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline__item timeline__item--active">
+              <span class="timeline__period">2021 — Presente</span>
+              <h3 class="timeline__role">Engenheiro Metalúrgico Sênior</h3>
+              <p class="timeline__company">NovaSteel Advanced Materials — São Paulo, SP</p>
+              <p class="timeline__desc">
+                Liderança técnica em desenvolvimento de aços AHSS para chassis automotivo.
+                Implementação de digital twin na linha de laminação a quente.
+              </p>
+            </article>
+            <article class="timeline__item">
+              <span class="timeline__period">2018 — 2021</span>
+              <h3 class="timeline__role">Especialista em Processos</h3>
+              <p class="timeline__company">MetalForge Indústria — Belo Horizonte, MG</p>
+              <p class="timeline__desc">
+                Otimização de processos de fundição sob pressão para componentes
+                aeroespaciais em liga Al-Si de alta pureza.
+              </p>
+            </article>
+            <article class="timeline__item">
+              <span class="timeline__period">2015 — 2018</span>
+              <h3 class="timeline__role">Analista de Materiais</h3>
+              <p class="timeline__company">TechAlloy Labs — Porto Alegre, RS</p>
+              <p class="timeline__desc">
+                Caracterização microestrutural via MEV/EDX e ensaios mecânicos
+                para certificação de novas ligas maraging.
+              </p>
+            </article>
+            <article class="timeline__item">
+              <span class="timeline__period">2013 — 2015</span>
+              <h3 class="timeline__role">Estagiário de P&amp;D</h3>
+              <p class="timeline__company">Usiminas S.A. — Ipatinga, MG</p>
+              <p class="timeline__desc">
+                Pesquisa em redução de inclusões não metálicas em aço
+                para tubos sem costura de alta resistência.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <div class="side-cards">
+          <div class="glass-card reveal">
+            <div class="card-header">
+              <span class="card-header__icon">🎓</span>
+              <h2>Formação</h2>
+            </div>
+            <ul class="education-list">
+              <li>
+                <strong>M.Sc. Engenharia de Materiais</strong>
+                <span>USP — Escola Politécnica, 2015</span>
+              </li>
+              <li>
+                <strong>B.Eng. Metalurgia</strong>
+                <span>UFMG, 2013</span>
+              </li>
+              <li>
+                <strong>MBA Indústria 4.0</strong>
+                <span>FGV, 2020</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="glass-card reveal">
+            <div class="card-header">
+              <span class="card-header__icon">★</span>
+              <h2>Certificações</h2>
+            </div>
+            <ul class="cert-list">
+              <li>ASNT NDT Level II — Ultrassom</li>
+              <li>Six Sigma Green Belt</li>
+              <li>AWS D1.1 Welding Inspector</li>
+              <li>ISO 9001:2015 Lead Auditor</li>
+            </ul>
+          </div>
+
+          <div class="glass-card glass-card--clients reveal">
+            <div class="card-header">
+              <span class="card-header__icon">◆</span>
+              <h2>Parceiros Industriais</h2>
+            </div>
+            <div class="clients-grid">
+              <span class="client-logo">VALE</span>
+              <span class="client-logo">Gerdau</span>
+              <span class="client-logo">Embraer</span>
+              <span class="client-logo">VW</span>
+              <span class="client-logo">Arcelor</span>
+              <span class="client-logo">Petrobras</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="contact-layout reveal">
+        <div class="glass-card contact-card">
+          <div class="card-header">
+            <span class="card-header__icon">✉</span>
+            <h2>Contato</h2>
+          </div>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-list__icon">📧</span>
+              <div>
+                <span class="contact-list__label">E-mail</span>
+                <a href="mailto:ricardo.alves@email.com">ricardo.alves@email.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-list__icon">📱</span>
+              <div>
+                <span class="contact-list__label">Telefone</span>
+                <a href="tel:+5511999887766">+55 (11) 99988-7766</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-list__icon">📍</span>
+              <div>
+                <span class="contact-list__label">Localização</span>
+                <span>São Paulo, Brasil</span>
+              </div>
+            </li>
+            <li>
+              <span class="contact-list__icon">🔗</span>
+              <div>
+                <span class="contact-list__label">LinkedIn</span>
+                <a href="#" target="_blank" rel="noopener">linkedin.com/in/ricardo-alves</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="glass-card cta-card">
+          <p class="cta-card__text">Pronto para transformar processos metalúrgicos?</p>
+          <a href="mailto:ricardo.alves@email.com" class="btn btn--primary btn--large">
+            Enviar mensagem
+            <svg class="btn__arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Ricardo Alves — Engenheiro Metalúrgico. Dados fictícios para demonstração.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
