@@ -12,3 +12,8 @@ Desktop.ini
 # Logs e temporários
 *.log
 *.tmp
+
+# Supabase / variáveis de ambiente
+.env
+.env.local
+.env.*.local
